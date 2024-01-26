@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cps510_ecommerce.CreateAccountScreenController">
+<!--    <Label layoutX="284.0" layoutY="137.0" text="Create user screen" style="-fx-font-size: 16px;"/>-->
+    <children>
+    <TextField layoutX="234.0" layoutY="47.0" fx:id="usernameField" />
+    <TextField layoutX="234.0" layoutY="87.0" fx:id="passwordField" />
+    <TextField layoutX="234.0" layoutY="127.0" fx:id="firstnameField" />
+    <TextField layoutX="234.0" layoutY="167.0" fx:id="lastnameField" />
+    <TextField layoutX="234.0" layoutY="207.0" fx:id="addressField" />
+    <TextField layoutX="234.0" layoutY="247.0" fx:id="cityField" />
+    <TextField layoutX="234.0" layoutY="287.0" fx:id="postalcodeField" />
+    <Label layoutX="138.0" layoutY="47.0" text="Username:" />
+    <Label layoutX="136.0" layoutY="87.0" text="Password:" />
+    <Label layoutX="138.0" layoutY="127.0" text="First Name:" />
+    <Label layoutX="136.0" layoutY="167.0" text="Last Name:" />
+    <Label layoutX="138.0" layoutY="207.0" text="Address:" />
+    <Label layoutX="136.0" layoutY="247.0" text="City:" />
+    <Label layoutX="138.0" layoutY="287.0" text="Postal Code:" />
+    <Button layoutX="247.0" layoutY="330.0" mnemonicParsing="false" onAction="#createAccountButton" text="Create an Account" />
+    <Button layoutX="277.0" layoutY="360.0" mnemonicParsing="false" onAction="#backButton" text="Back" />
+    </children>
+</AnchorPane>

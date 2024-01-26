@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="MainScreen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cps510_ecommerce.LoginScreenController">
+    <children>
+    <TextField layoutX="284.0" layoutY="137.0" fx:id="usernameField" />
+    <TextField layoutX="284.0" layoutY="187.0" fx:id="passwordField" />
+    <Label layoutX="186.0" layoutY="141.0" text="Username:" />
+    <Label layoutX="188.0" layoutY="191.0" text="Password:" />
+    <Button layoutX="277.0" layoutY="248.0" mnemonicParsing="false" onAction="#loginButton" text="Login" />
+    <Button layoutX="247.0" layoutY="300.0" mnemonicParsing="false" onAction="#createAccountButton" text="Create an Account" />
+    <Button layoutX="277.0" layoutY="248.0" mnemonicParsing="false" onAction="dropTablesButton" text="Drop Tables" />
+    <Button layoutX="247.0" layoutY="300.0" mnemonicParsing="false" onAction="createTablesButton" text="Create Tables" />
+    <Button layoutX="247.0" layoutY="300.0" mnemonicParsing="false" onAction="populateTablesButton" text="Populate Tables" />
+    </children>
+</AnchorPane>
+
